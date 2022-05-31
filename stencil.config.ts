@@ -31,8 +31,8 @@ export const config: Config = {
     },
     angularOutputTarget({
       componentCorePackage: 'prueba-stencil',
-      directivesProxyFile: '../angular-workspace/projects/component-library/src/lib/stencil-generated/components.ts',
-      directivesArrayFile: '../angular-workspace/projects/component-library/src/lib/stencil-generated/index.ts',
+      directivesProxyFile: 'angular-workspace/projects/component-library/src/lib/stencil-generated/components.ts',
+      directivesArrayFile: 'angular-workspace/projects/component-library/src/lib/stencil-generated/index.ts',
       valueAccessorConfigs: angularValueAccessorBindings,
     })
   ],
